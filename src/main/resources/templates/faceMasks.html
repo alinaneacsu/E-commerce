@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FACE MASKS</title>
+</head>
+<body>
+
+	<h2>FACE MASKS</h2>
+
+	<div align="center">
+		<a th:href="@{faceMasks}">Home</a> 
+		<a th:href="@{faceMasks}">T-shirts</a> 
+		<a th:href="@{faceMasks}">Stickers</a>
+	</div>
+
+	<ul>
+		<li th:each="faceMask : ${faceMasks}">
+			<span th:text="${faceMask.name}">Default</span>
+			<span th:text="${faceMask.price}">Default</span> 
+			<span th:text="${faceMask.size}">Default</span> 
+		</li>
+	</ul>
+</body>
+</html>

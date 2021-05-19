@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CUSTOMER</title>
+</head>
+<body>
+
+	<h2>CUSTOMER</h2>
+
+	<ul>
+		<li th:each="customer : ${customersByFirstName}">
+			<span th:text="${customer.firstName}">Default</span>
+			<span th:text="${customer.lastName}">Default</span> 
+			<span th:text="${customer.CNP}">Default</span> 
+			<span th:text="${customer.phoneNumber}">Default</span>
+			<span th:text="${customer.email}">Default</span>
+			<span th:text="${customer.billingAddress}">Default</span>
+			<span th:text="${customer.deliveryAddress}">Default</span>			
+		</li>
+	</ul>
+</body>
+</html>

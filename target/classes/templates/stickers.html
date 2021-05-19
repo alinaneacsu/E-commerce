@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>STICKERS</title>
+</head>
+<body>
+
+	<h2>STICKERS</h2>
+
+	<div align="center">
+		<a th:href="@{stickers}">Home</a> 
+		<a th:href="@{stickers}">Masks</a> 
+		<a th:href="@{stickers}">Stickers</a>
+	</div>
+
+	<ul>
+		<li th:each="sticker : ${stickers}">
+			<span th:text="${sticker.name}">Default</span>
+			<span th:text="${sticker.price}">Default</span> 
+			<span th:text="${sticker.size}">Default</span> 
+			<span th:text="${sticker.type}">Default</span> 
+		</li>
+	</ul>
+</body>
+</html>

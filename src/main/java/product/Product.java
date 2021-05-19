@@ -1,7 +1,13 @@
 package product;
 
+import java.util.ArrayList;
+
+import tshirt.Tshirt;
+
 public class Product {
-	protected enum Size {
+	private ArrayList<Tshirt> tshirts;
+
+	public enum Size {
 		S,
 		M,
 		L,
@@ -52,7 +58,7 @@ public class Product {
 	public void getSize(Size size) {
 		this.size = size;
 	}
-	
+
 	@Override
 	public String toString() {
 		String s = "Name: " + name + ", Price: " + price + ", Quantity: " + quantity + ", Size: " + size ;

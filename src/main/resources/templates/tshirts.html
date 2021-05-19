@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout}">
+<head>
+<meta charset="ISO-8859-1">
+<title>T-SHIRTS</title>
+</head>
+<body>
+<!-- Content Section -->
+<section layout:fragment="content">
+
+	<h2>T-SHIRTS</h2>
+
+	<ul>
+		<li th:each="tshirt : ${tshirts}">
+			<span th:text="${tshirt.name}">Default</span>
+			<span th:text="${tshirt.price}">Default</span> 
+			<span th:text="${tshirt.size}">Default</span> 
+			<span th:text="${tshirt.color}">Default</span> 
+			<span th:text="${tshirt.gender}">Default</span>
+		</li>
+	</ul>
+	</section>
+</body>
+</html>

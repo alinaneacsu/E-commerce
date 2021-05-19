@@ -3,7 +3,7 @@ package tshirt;
 import product.Product;
 
 public class Tshirt extends Product { 
-	private enum Gender {
+	public enum Gender {
 		FEMALE,
 		MALE
 	}

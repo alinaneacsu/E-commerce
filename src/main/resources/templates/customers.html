@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CUSTOMERS</title>
+</head>
+<body>
+
+	<h2>CUSTOMERS</h2>
+
+	<ul>
+		<li th:each="customer : ${customers}">
+			<span th:text="${customer.firstName}">Default</span>
+			<span th:text="${customer.lastName}">Default</span> 
+			<span th:text="${customer.phoneNumber}">Default</span> 
+		</li>
+	</ul>
+</body>
+</html>

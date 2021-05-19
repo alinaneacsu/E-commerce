@@ -3,7 +3,7 @@ package sticker;
 import product.Product;
 
 public class Sticker extends Product {
-	private enum Type {
+	public enum Type {
 		WEBSITE_LOGO,
 		TSHIRT_DESIGN
 	}

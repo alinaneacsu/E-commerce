@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout}">
+<head>
+<title>Welcome to Led Zeppelin</title>
+</head>
+<body>
+
+	<div layout:fragment="content">
+		<section class="my-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div align="center">     
+						<div class="p-4 bg-white mb-5">
+							<h2>Welcome to Led Zeppelin</h2>
+							</div>
+						</div>
+					</div>
+					
+					<div align="center">
+						<img src="src/main/resources/static/img/ledzeppelin.png"
+							th:src="@{img/ledzeppelin.png}" />
+					</div>
+				</div>
+			</div>
+	</div>
+	</section>
+	</div>
+
+</body>
+</html>

@@ -6,6 +6,7 @@ import java.util.List;
 public class Account {
 	private String firstName;
 	private String lastName;
+	private String CNP;
 	private String phoneNumber;
 	private String email;
 	private String billingAddress;
@@ -17,10 +18,11 @@ public class Account {
 	
 	public Account() {}
 	
-	public Account(String firstName, String lastName, String phoneNumber, String email, String billingAddress, String deliveryAddress, 
-			Date registration, Basket basket, List<Order> orderList, Wishlist wishlist) {
+	public Account(String firstName, String lastName, String CNP, String phoneNumber, String email, String billingAddress, 
+			String deliveryAddress, Date registration, Basket basket, List<Order> orderList, Wishlist wishlist) {
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.CNP = CNP;
 		this.phoneNumber = phoneNumber;
 		this.email = email;
 		this.billingAddress = billingAddress;
@@ -29,6 +31,18 @@ public class Account {
 		this.basket = basket;
 		this.orderList = orderList;
 		this.wishlist = wishlist;
+	}
+	
+	public Account(String firstName, String lastName, String CNP, String phoneNumber, String email, String billingAddress, String deliveryAddress, 
+			Date registration) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.CNP = CNP;
+		this.phoneNumber = phoneNumber;
+		this.email = email;
+		this.billingAddress = billingAddress;
+		this.deliveryAddress = deliveryAddress;
+		this.registrationDate = registrationDate;
 	}
 	
 	public String getFirstName() {
@@ -45,6 +59,14 @@ public class Account {
 	
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+	
+	public String getCNP() {
+		return CNP;
+	}
+	
+	public void setCNP(String CNP) {
+		this.CNP = CNP;
 	}
 	
 	public String getPhoneNumber() {
@@ -113,7 +135,7 @@ public class Account {
 
 	@Override
 	public String toString() {
-		String s = "First name: " + firstName + ", Last name: " + lastName + ", Phone number: " + phoneNumber
+		String s = "First name: " + firstName + ", Last name: " + lastName + "CNP: " + CNP + ", Phone number: " + phoneNumber
 				+ ", Email: " + email + ", Billing address: " + billingAddress + ", Delivery address: " + deliveryAddress
 				+ ", Registration date: " + registrationDate + ", Basket: " + basket + ", Order list: " + orderList 
 				+ ", Wishlist: " + wishlist;
