@@ -33,5 +33,4 @@ public class TshirtStructure {
 		products.add(t2);
 		products.add(t3);
 	}
-
 }

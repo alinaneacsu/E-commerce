@@ -15,7 +15,7 @@
 
 	<!-- Main Navigation -->
 	<nav class="navbar navbar-expand-md navbar-dark bg-secondary">
-		<a class="navbar-brand" th:href="@{/}">Led Zeppelin</a>
+		<a class="navbar-brand" th:href="@{/home}">Led Zeppelin</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbar" aria-controls="navbar" aria-expanded="false"
 			aria-label="Toggle navigation">
@@ -48,135 +48,149 @@
 	<section layout:fragment="content">
 		<p>This is filled by the content template.</p>
 	</section>
-	
-<script src="https://kit.fontawesome.com/13ccb33514.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-<!-- Footer -->
-<footer class=" text-center text-white" style="background-color:#53b288;">
-  <!-- Grid container -->
-  <div class="container p-4">
+	<script src="https://kit.fontawesome.com/13ccb33514.js"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://www.facebook.com" role="button"><i class="fab fa-facebook-f"></i></a>
+	<!-- Footer -->
+	<footer class=" text-center text-white"
+		style="background-color: #53b288;">
+		<!-- Grid container -->
+		<div class="container p-4">
 
-      <!-- Instagram -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com" role="button"><i class="fab fa-instagram"></i></a>
+			<!-- Section: Social media -->
+			<section class="mb-4">
+				<!-- Facebook -->
+				<a class="btn btn-primary btn-floating m-1"
+					style="background-color: #3b5998" href="https://www.facebook.com"
+					role="button"><i class="fab fa-facebook-f"></i></a>
 
-      <!-- Linkedin -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/alina-gabriela-neacsu-a9bb98145/" role="button"><i class="fab fa-linkedin-in"></i></a>
-      
-      <!-- Github -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/alinaneacsu" role="button"><i class="fab fa-github"></i></a>
-    </section>
-    <!-- Section: Social media -->
+				<!-- Instagram -->
+				<a class="btn btn-primary btn-floating m-1"
+					style="background-color: #ac2bac" href="https://www.instagram.com"
+					role="button"><i class="fab fa-instagram"></i></a>
 
+				<!-- Linkedin -->
+				<a class="btn btn-primary btn-floating m-1"
+					style="background-color: #0082ca"
+					href="https://www.linkedin.com/in/alina-gabriela-neacsu-a9bb98145/"
+					role="button"><i class="fab fa-linkedin-in"></i></a>
 
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example2" class="form-control" />
-              <label class="form-label" for="form5Example2">Email address</label>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Subscribe
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
+				<!-- Github -->
+				<a class="btn btn-primary btn-floating m-1"
+					style="background-color: #333333"
+					href="https://github.com/alinaneacsu" role="button"><i
+					class="fab fa-github"></i></a>
+			</section>
+			<!-- Section: Social media -->
 
 
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        We are Led Zeppelin. We are here to make your life easier. 
-      </p>
-    </section>
-    <!-- Section: Text -->
+			<!-- Section: Form -->
+			<section class="">
+				<form action="">
+					<!--Grid row-->
+					<div class="row d-flex justify-content-center">
+						<!--Grid column-->
+						<div class="col-auto">
+							<p class="pt-2">
+								<strong>Sign up for our newsletter</strong>
+							</p>
+						</div>
+						<!--Grid column-->
 
+						<!--Grid column-->
+						<div class="col-md-5 col-12">
+							<!-- Email input -->
+							<div class="form-outline form-white mb-4">
+								<input type="email" id="form5Example2" class="form-control" />
+								<label class="form-label" for="form5Example2">Email
+									address</label>
+							</div>
+						</div>
+						<!--Grid column-->
 
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">STORE</h5>
+						<!--Grid column-->
+						<div class="col-auto">
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="/home" class="text-white">Home</a>
-            </li>
-            <li>
-              <a href="/tshirts" class="text-white">T-shirts</a>
-            </li>
-            <li>
-              <a href="/masks" class="text-white">Face Masks</a>
-            </li>
-            <li>
-              <a href="/stickers" class="text-white">Stickers</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
+							<!-- Submit button -->
+							<button type="submit" class="btn btn-outline-light mb-4">
+								Subscribe</button>
+						</div>
+						<!--Grid column-->
+					</div>
+					<!--Grid row-->
+				</form>
+			</section>
+			<!-- Section: Form -->
 
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Utils</h5>
+			<!-- Footer -->
+			<footer class="page-footer font-small blue pt-4">
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Terms</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Confidentiality Policy</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Cookies</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Delete your account</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-  <!-- Grid container -->
+				<!-- Footer Links -->
+				<div class="container-fluid text-center text-md-left">
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2021 Copyright: LedZeppelin.com
-    <a class="text-white"></a>
-  </div>
-  <!-- Copyright -->
+					<!-- Grid row -->
+					<div class="row">
 
-</footer>
-<!-- Footer -->
+						<!-- Grid column -->
+						<div class="col-md-6 mt-md-0 mt-3">
+
+							<!-- Content -->
+							<h5 class="text-uppercase">ABOUT US</h5>
+							<p>We are Led Zeppelin. We are here to make your life easier. 
+							Look cool, feel cool!</p>
+
+						</div>
+						<!-- Grid column -->
+
+						<hr class="clearfix w-100 d-md-none pb-3">
+
+						<!-- Grid column -->
+						<div class="col-md-3 mb-md-0 mb-3">
+
+							<!-- Links -->
+							<h5 class="text-uppercase">STORE</h5>
+
+							<ul class="list-unstyled">
+								<li><a href="/tshirts" class = "text-white">T-shirts</a></li>
+								<li><a href="/masks" class = "text-white">Face Masks</a></li>
+								<li><a href="/stickers" class = "text-white">Stickers</a></li>
+							</ul>
+
+						</div>
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+						<div class="col-md-3 mb-md-0 mb-3">
+
+							<!-- Links -->
+							<h5 class="text-uppercase">UTILS</h5>
+
+							<ul class="list-unstyled">
+								<li><a href="#!" class = "text-white">Terms & Conditions</a></li>
+								<li><a href="#!" class = "text-white">Confidentiality Policy</a></li>
+								<li><a href="#!" class = "text-white">Cookies</a></li>
+							</ul>
+
+						</div>
+						<!-- Grid column -->
+
+					</div>
+					<!-- Grid row -->
+
+				</div>
+				<!-- Footer Links -->
+
+				<!-- Copyright -->
+				<div class="footer-copyright text-center py-3">
+					© 2021 Copyright: <a href="https://localhost:8080/home" class = "text-white">
+						LedZeppelin.com</a>
+				</div>
+				<!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
 </body>
 </html>
