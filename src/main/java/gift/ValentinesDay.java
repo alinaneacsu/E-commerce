@@ -1,6 +1,6 @@
 package gift;
 
-import tshirt.Tshirt;
+import com.alinaneacsu.ecommercetshirtstore.tshirt.Tshirt;
 
 public class ValentinesDay extends Tshirt {
 

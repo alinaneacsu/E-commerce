@@ -1,6 +1,6 @@
 package custom;
 
-import tshirt.Tshirt;
+import com.alinaneacsu.ecommercetshirtstore.tshirt.Tshirt;
 
 public class DoItYourself extends Tshirt {
 

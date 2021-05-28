@@ -3,6 +3,8 @@ package user;
 import java.util.Date;
 import java.util.List;
 
+import com.alinaneacsu.ecommercetshirtstore.basket.Basket;
+
 public class Account {
 	private String firstName;
 	private String lastName;

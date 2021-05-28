@@ -2,7 +2,7 @@ package user;
 
 import java.util.List;
 
-import product.Product;
+import com.alinaneacsu.ecommercetshirtstore.product.Product;
 
 public class Wishlist {
 	private List<Product> products;
