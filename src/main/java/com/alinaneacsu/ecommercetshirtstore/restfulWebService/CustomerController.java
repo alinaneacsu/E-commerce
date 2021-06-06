@@ -13,9 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alinaneacsu.ecommercetshirtstore.structure.CustomerStructure;
-
-import user.Account;
-import user.Customer;
+import com.alinaneacsu.ecommercetshirtstore.user.Account;
+import com.alinaneacsu.ecommercetshirtstore.user.Customer;
 
 @Controller
 public class CustomerController {

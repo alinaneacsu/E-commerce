@@ -5,8 +5,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import user.Account;
-import user.Customer;
+import com.alinaneacsu.ecommercetshirtstore.user.Account;
+import com.alinaneacsu.ecommercetshirtstore.user.Customer;
 
 public class CustomerStructure {
 

@@ -1,4 +1,4 @@
-package user;
+package com.alinaneacsu.ecommercetshirtstore.user;
 
 import java.util.List;
 
